@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#041752, #0C55E1, #08389E);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+section.login-container {
+    background-color: white;
+    width: 100%;
+    max-width: 450px; 
+    padding: 40px; 
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-icon {
+    width: 120px; 
+    height: 120px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #041752;
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0; 
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 1rem;
+}
+
+.trial-bt {
+    width: 100%;
+    padding: 15px;
+    background-color: #041752;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.trial-bt:hover {
+    background-color: #0C55E1;
+}
+
+.divisor {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 25px 0;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* CORREÇÃO DO GAP AQUI */
+.categoria-botoes {
+    display: flex;
+    width: 100%;
+    gap: 15px; /* Espaço entre os botões */
+    justify-content: center;
+}
+
+.categoria-botoes button {
+    flex: 1; /* Faz os botões terem o mesmo tamanho */
+    padding: 12px;
+    background-color: #041752;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.categoria-botoes button:hover {
+    background-color: #0C55E1;
+}
+
+.lista-produtos {
+    width: 100%;
+    margin-top: 20px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.item-produto {
+    background: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    border: 1px solid #041752; 
+    color: #333;
+}
